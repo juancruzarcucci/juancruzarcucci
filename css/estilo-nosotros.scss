@@ -1,0 +1,1211 @@
+*{
+    text-decoration: none ; 
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+nav{
+    margin: -12px 0 20px;
+    height: 15vh;
+    
+    .container--menu{
+        background-color: #fff;
+        box-shadow: 0 5px 5px 0 #333;
+        margin-top: auto;
+    }
+    .container--titulo{
+        width: 100%;
+        border: 15px solid #000;
+        border-radius: 20px;
+        padding: 0 20px;
+        border-top: none;
+        border-bottom: none;
+        text-align: center;
+    }
+    .navbar-nav{
+        margin-left: auto;
+    }
+    .nav-link{
+        font-size: 1.3rem;
+    }
+    a.nav-link{
+        /* color:#fff; */
+        /* background-color: black; */
+        z-index: 10;
+    }
+    
+}
+body{
+    background: linear-gradient(#fff ,  #000);
+}
+// SECCION POR QUE ELEGIR 
+.container-4-index{
+    height: 100vh;
+    // margin-top: -3%;
+
+    .container-titulo-4{
+        margin-top: 40px;
+
+        .titulo-4{
+            margin-top: 40px;
+        }
+    }
+    .div-texto-pq{
+        margin: 15px auto 15px auto;
+    
+    .texto-pq{
+        text-align: center;
+        font-size: 25px;
+    }
+}
+    .div-img-pq{
+        height: 70vh;
+        margin: 15px auto 15px auto;
+
+        .imagen-pq{
+            width: 100%;
+            height: 100%;
+            box-shadow: 0 5px 5px 0 #000;
+        }
+    }
+}
+// FOTOS STAFF
+.container-3-index{
+    height: 60vh;
+    margin: 3vh 0 10vh;
+
+    .item-staff{
+        height: 350px;
+        margin: 15px auto 15px auto;
+
+        .foto-staff{
+            width: 85%;
+            height: 100%;
+            box-shadow: 0 5px 5px 0 #000;
+        }
+        .text-img{
+            color: #000;
+            // text-align: center;
+        }
+    }
+}
+// SECCION NOSOTROS
+.container-2-index{
+    height: 80vh;
+    margin-top: 8%;
+
+    .titulo-2{
+        margin-left: 5%;
+        color: #fff;
+    }
+    .div-1-nosotros{
+    height: 350px;
+    box-shadow: 0 5px 5px 0 #000;
+    margin-left: 5%;
+    background-image: url(/img/foto-michaeljor-1.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+    
+    .div-2-nosotros{
+        height: 450px;
+        background-color: #333;
+        /* border: #fff solid 2px; */
+        box-shadow: 0 5px 5px 1px #000;
+        text-align: center;
+        margin-left: 5%;
+
+        .div-texto{
+            width: 80%;
+            height: 100%;
+            margin: 30px auto 15px auto;
+
+            .texto{
+                margin: auto 0; 
+                // margin-top: 75px;
+                font-size: 0.8rem;
+                color: #fff;
+            }
+          
+        }
+    }
+}
+// FOOTER
+footer{
+    height: 30vh;
+    
+    .titulo-3{
+        color: #fff;
+    }
+
+    .container-redes{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        height: 10%;
+        width: 100%;
+
+        .caja-itemRedes{
+            width: 4%;
+            height: 4%;
+            margin: 15px 55px ;
+            /* background-color: #000; */
+            transition: 0.4s;
+        
+
+            .logo-redes{
+                width: 100%;
+                height: 100%;
+                transition: 0.7s;
+            }
+            
+            .logo-redes:hover{
+                transform: scale(1.3);
+            }
+        }
+    }
+}
+@media only screen and (max-width:321px){
+    nav{
+        margin: -12px 0 20px;
+        height: 15vh;
+        
+        .container--menu{
+            background-color: #fff;
+            box-shadow: 0 5px 5px 0 #333;
+            margin-top: auto;
+        }
+        .container--titulo{
+            max-width: 300px ;
+            min-width: 200px;
+            border: 15px solid #000;
+            border-radius: 20px;
+            margin: 0 3%;
+            padding: 0 20px;
+            border-top: none;
+            border-bottom: none;
+            text-align: center;
+        }
+        button.navbar-toggler{
+            width: 30%;
+            height: 30%;
+            margin: -0.3rem auto 0.5rem auto;
+
+            span.navbar-toggler-icon{
+                margin: auto -8px;
+            }
+        }
+        .navbar-collapse{
+            z-index: 100;
+            height: 200%;
+        }
+      
+        a.nav-link{
+        background-color: #fff;
+        border: 1px solid #999;
+        color: #000;
+        font-size: 1rem;
+        z-index: 999;
+        }
+        
+    }
+// CONTAINER 4
+    .container-4-index{
+        height: 100vh;
+        margin-top: 30%;
+
+        .div-texto-pq{
+            margin:15px auto 15px auto;
+        
+        .texto-pq{
+            text-align: center;
+            font-size: 0.6rem;
+        }
+    }
+    .div-img-pq{
+        height: 30vh;
+        margin: -1.2rem auto 15px auto;
+    
+    .imagen-pq{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 5px 5px 0 #333;
+    }
+}
+    }
+// STAFF
+.container-3-index{
+    height: 165vh;
+
+    .titulo-5{
+        margin-top: -5rem;
+        font-size: 1.9rem;
+    }
+    .item-staff{
+        height: 250px;
+        margin-bottom: 3rem;
+    
+    .foto-staff{
+        margin: 1% 25px 1% 25px;
+        min-width: 150px;
+        max-width: 250px;
+        height: 100%;
+        box-shadow: 0 5px 5px 0 #000;
+    }
+    .text-img{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    }
+}
+// NUESTROS COMIENZOS
+    .container-2-index{
+        height: 115vh;
+        width: 100%;
+    
+     .titulo-2{
+         margin: 0 auto;
+     }
+     
+     .div-1-nosotros{
+         height: 200px;
+         box-shadow: 0 5px 5px 0 #000;
+        //  width: 90%;
+         margin: 0 auto;
+         background-image: url(/img/foto-michaeljor-1.jpg);
+         background-position: center;
+         background-size: cover;
+     }
+     .div-2-nosotros{  
+        height: 425px;
+        background-color: #333;
+        box-shadow: 0 5px 5px 1px #000;
+        text-align: center;
+        margin: 20px auto !important;
+        // width: 250px;
+        
+        .div-texto{
+            width: 80%;
+            height: 90%;
+            margin: 20px auto;
+            .texto{
+                font-size: 0.57rem;
+                color: #fff;
+            }
+        }
+
+     }
+    }
+    // FOOTER
+    footer{
+        height: 20vh;
+
+        .titulo-3{
+            color: #fff;
+        }
+        .container-redes{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            height: 10%;
+            width: 100%;
+
+            .caja-itemRedes{
+                width: 12%;
+                height:12%;
+                margin: 1% 6%;
+
+                .logo-redes{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 321px) and (max-width: 390px){
+    nav{
+        margin: -12px 0 20px;
+        height: 15vh;
+        
+        .container--menu{
+            background-color: #fff;
+            box-shadow: 0 5px 5px 0 #333;
+            margin-top: auto;
+        }
+        .container--titulo{
+            max-width: 300px ;
+            min-width: 200px;
+            border: 15px solid #000;
+            border-radius: 20px;
+            margin: 0 15%;
+            padding: 0 20px;
+            border-top: none;
+            border-bottom: none;
+            text-align: center;
+        }
+        button.navbar-toggler{
+            width: 30%;
+            height: 30%;
+            margin: -0.3rem auto 0.5rem auto;
+
+            span.navbar-toggler-icon{
+                margin: auto -8px;
+            }
+        }
+        .navbar-collapse{
+            z-index: 100;
+            height: 200%;
+        }
+      
+        a.nav-link{
+        background-color: #fff;
+        border: 1px solid #999;
+        color: #000;
+        font-size: 1rem;
+        z-index: 999;
+        }
+        
+    }
+   
+// CONTAINER 4
+.container-4-index{
+    height: 60vh;
+    margin-top: 25%;
+
+    .div-texto-pq{
+        margin:15px auto 15px auto;
+    
+    .texto-pq{
+        text-align: center;
+        font-size: 0.7rem;
+    }
+}
+.div-img-pq{
+    width: 100%;
+    height: 40vh;
+    margin: -1.2rem auto 15px auto;
+
+.imagen-pq{
+    width: 100%;
+    height: 100%;
+    margin-top: -1.2rem;
+    box-shadow: 0 5px 5px 0 #333;
+}
+}
+}
+// STAFF
+.container-3-index{
+    height: 190vh;
+    width: 300px;
+
+    .titulo-5{
+        margin: 4rem 0 1rem;
+        font-size: 1.9rem;
+    }
+    .item-staff{
+        height: 325px;
+        margin: 35px 0 2rem;
+    
+    .foto-staff{
+        min-width: 250px;
+        max-width: 300px ;
+        margin: 0 10%;
+        height: 325px;
+        box-shadow: 0 5px 5px 0 #000;
+    }
+    .text-img{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    }
+}
+// NUESTROS COMIENZOS3
+.container-2-index{
+    height: 140vh;
+
+ .titulo-2{
+     margin: 4rem auto 1rem;
+ }
+ 
+ .div-1-nosotros{
+    height: 300px;
+    box-shadow: 0 5px 5px 0 #000;
+    margin: 0 auto;
+    background-image: url(/img/foto-michaeljor-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 90% !important;
+ }
+ .div-2-nosotros{  
+    height: 440px;
+    background-color: #333;
+    box-shadow: 0 5px 5px 1px #000;
+    text-align: center;
+    margin: 20px auto !important;
+    
+    .div-texto{
+        width: 80%;
+        height: 100%;    
+        .texto{
+            font-size: 0.65rem;
+            color: #fff;
+            margin: -5px auto auto;
+        }
+    }
+
+ }
+}
+// FOOTER
+footer{
+    height: 25vh;
+
+    .titulo-3{
+        color: #fff;
+    }
+    .container-redes{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        height: 10%;
+        width: 100%;
+
+        .caja-itemRedes{
+            width: 12%;
+            height:12%;
+            margin: 1% 6%;
+
+            .logo-redes{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+}
+@media (min-width: 390px) and (max-width: 480px){
+    nav{
+        margin: -12px 0 20px;
+        height: 15vh;
+        
+        .container--menu{
+            background-color: #fff;
+            box-shadow: 0 5px 5px 0 #333;
+            margin-top: auto;
+        }
+        .container--titulo{
+            width: 100%;
+            border: 15px solid #000;
+            border-radius: 20px;
+            margin: 0 10%;
+            padding: 0 60px;
+            border-top: none;
+            border-bottom: none;
+            text-align: center;
+        }
+        button.navbar-toggler{
+            width: 20%;
+            height: 25%;
+            margin: -0.3rem auto 0.5rem auto;
+
+            span.navbar-toggler-icon{
+                margin: auto -8px;
+            }
+        }
+        .navbar-collapse{
+            z-index: 100;
+            height: 200%;
+        }
+      
+        a.nav-link{
+        background-color: #fff;
+        border: 1px solid #999;
+        color: #000;
+        font-size: 1rem;
+        z-index: 999;
+        }
+        
+    }
+// CONTAINER 4
+.container-4-index{
+    height: 60vh;
+    margin-top: 3rem;
+
+    .div-texto-pq{
+        margin:15px auto 15px auto;
+    
+    .texto-pq{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+.div-img-pq{
+    width: 100%;
+    height: 40vh;
+    margin: -1.2rem auto 15px auto;
+
+.imagen-pq{
+    width: 100%;
+    height: 100%;
+    margin-top: -1.2rem;
+    box-shadow: 0 5px 5px 0 #333;
+}
+}
+}
+// STAFF
+.container-3-index{
+    height: 170vh;
+
+    .titulo-5{
+        margin: 4rem 0 1rem;
+        font-size: 1.9rem;
+    }
+    .item-staff{
+        height: 325px;
+        margin: 35px auto 2rem;
+    
+    .foto-staff{
+        min-width: 250px;
+        max-width: 300px ;
+        margin: 0 15%;
+        height: 325px;
+        box-shadow: 0 5px 5px 0 #000;
+    }
+    .text-img{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    }
+}
+// NUESTROS COMIENZOS3
+.container-2-index{
+    height: 140vh;
+    margin-top: 9rem;
+
+ .titulo-2{
+     margin: 4rem auto 1rem;
+ }
+ 
+ .div-1-nosotros{
+    height: 300px;
+    box-shadow: 0 5px 5px 0 #000;
+    margin: 0 auto;
+    background-image: url(/img/foto-michaeljor-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 90% !important;
+ }
+ .div-2-nosotros{  
+    height: 440px;
+    background-color: #333;
+    box-shadow: 0 5px 5px 1px #000;
+    text-align: center;
+    width: 90% !important;
+    margin: 20px auto !important;    
+    
+    .div-texto{
+        width: 80%;
+        height: 100%;    
+        .texto{
+            font-size: 0.70rem;
+            color: #fff;
+            margin: -5px auto auto;
+        }
+    }
+
+ }
+}
+// FOOTER
+footer{
+    height: 25vh;
+
+    .titulo-3{
+        color: #fff;
+    }
+    .container-redes{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        height: 10%;
+        width: 100%;
+
+        .caja-itemRedes{
+            width: 12%;
+            height:12%;
+            margin: 1% 6%;
+
+            .logo-redes{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+
+}
+@media(min-width:481px) and (max-width:768px){
+ 
+        .container--titulo{
+            width: 100%;
+            border: 15px solid #000;
+            border-radius: 20px;
+            margin: 0 10%;
+            padding: 0 40px;
+            border-top: none;
+            border-bottom: none;
+            text-align: center;
+        
+        .navbar-collapse{
+            z-index: 100;
+            height: 200%;
+        }
+      
+        a.nav-link{
+        background-color: #fff;
+        border: 1px solid #999;
+        color: #000;
+     
+        }
+    
+    }
+// CONTAINER 4
+.container-4-index{
+    height: 60vh;
+    margin-top: 1rem;
+
+    .div-texto-pq{
+        margin:15px auto 15px auto;
+    
+    .texto-pq{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+.div-img-pq{
+    width: 100%;
+    height: 50vh;
+    margin: -1.2rem auto 15px auto;
+
+.imagen-pq{
+    width: 100%;
+    height: 100%;
+    margin-top: -1.2rem;
+    box-shadow: 0 5px 5px 0 #333;
+}
+}
+}
+// STAFF
+.container-3-index{
+    height: 170vh;
+    // width: 300px;
+
+    .titulo-5{
+        margin: 4.5rem 0 1rem;
+        font-size: 1.9rem;
+    }
+    .item-staff{
+        height: 325px;
+        margin: 35px 0 2rem;
+    
+    .foto-staff{
+        min-width: 250px;
+        max-width: 300px ;
+        margin: 0 25%;
+        height: 325px;
+        box-shadow: 0 5px 5px 0 #000;
+    }
+    .text-img{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    }
+}
+// NUESTROS COMIENZOS
+.container-2-index{
+    height: 140vh;
+    margin-top: 8rem;
+
+ .titulo-2{
+     margin: 4rem auto 1rem;
+ }
+ 
+ .div-1-nosotros{
+    height: 400px;
+    box-shadow: 0 5px 5px 0 #000;
+    margin: 0 auto;
+    background-image: url(/img/foto-michaeljor-1.jpg);
+    background-position: top;
+    background-size: cover;
+    width: 90% !important;
+ }
+ .div-2-nosotros{  
+    height: 440px;
+    background-color: #333;
+    box-shadow: 0 5px 5px 1px #000;
+    text-align: center;
+    width: 70% !important;
+    margin: 20px auto !important;    
+    
+    .div-texto{
+        width: 80%;
+        height: 100%;    
+        .texto{
+            font-size: 0.69rem;
+            color: #fff;
+            margin: -5px auto auto;
+        }
+    }
+
+ }
+}
+// FOOTER
+footer{
+    height: 30vh;
+    margin-top: 1rem;
+
+    .titulo-3{
+        color: #fff;
+    }
+    .container-redes{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        height: 10%;
+        width: 100%;
+
+        .caja-itemRedes{
+            width: 8%;
+            height:8%;
+            margin: 1% 6%;
+
+            .logo-redes{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+}
+@media(min-width:768px) and (max-width:991px){
+    
+    .container--titulo{
+        width: 100%;
+        border: 15px solid #000;
+        border-radius: 20px;
+        margin: 0 25px;
+        padding: 0 10px;
+        border-top: none;
+        border-bottom: none;
+        text-align: center;
+    
+    .navbar-collapse{
+        z-index: 100;
+        height: 200%;
+    }
+  
+    a.nav-link{
+        background-color: #fff;
+        border: 1px solid #999;
+        color: #000;
+        font-size: 1rem;
+        z-index: 999;
+    }
+
+}
+// CONTAINER 4
+.container-4-index{
+height: 90vh;
+margin-top: 1rem;
+
+.div-texto-pq{
+    width: 90%;
+    margin:15px auto 15px auto;
+
+.texto-pq{
+    text-align: center;
+    font-size: 0.9rem;
+}
+}
+.div-img-pq{
+height: 60vh;
+width: 90%;
+margin: 0.2rem auto 15px auto;
+
+.imagen-pq{
+width: 100%;
+height: 100%;
+margin-top: -1.2rem;
+box-shadow: 0 5px 5px 0 #333;
+}
+}
+}
+// STAFF
+.container-3-index{
+height: 60vh;
+
+.titulo-5{
+    margin: 2.5rem 0 1rem;
+    font-size: 1.9rem;
+}
+.item-staff{
+    height: 200px;
+   
+
+.foto-staff{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 5px 0 #333;
+}
+.text-img{
+    text-align: center;
+    font-size: 1rem;
+}
+}
+}
+// NUESTROS COMIENZOS
+.container-2-index{
+height: 155vh;
+margin-top: -2rem;
+
+.titulo-2{
+ margin: 4rem auto 1rem;
+}
+
+.div-1-nosotros{
+height: 500px;
+box-shadow: 0 5px 5px 0 #000;
+margin: 0 auto;
+background-image: url(/img/foto-michaeljor-1.jpg);
+background-position: center;
+background-size: cover;
+width: 80% !important;
+}
+.div-2-nosotros{  
+height: 440px;
+background-color: #333;
+box-shadow: 0 5px 5px 1px #000;
+text-align: center;
+width: 70% !important;
+margin: 20px auto !important;    
+
+.div-texto{
+    width: 80%;
+    height: 100%;    
+    .texto{
+        font-size: 0.9rem;
+        color: #fff;
+        margin: -5px auto auto;
+    }
+}
+
+}
+}
+// FOOTER
+footer{
+height: 35vh;
+margin-top: 1rem;
+
+.titulo-3{
+    color: #fff;
+}
+.container-redes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+
+    .caja-itemRedes{
+        width: 8%;
+        height: 8%;
+        margin: 1% 6%;
+
+        .logo-redes{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+}
+}
+@media (min-width: 992px) and (max-width: 1045px){
+  
+    
+    a.nav-link{
+        /* color:#fff; */
+        /* background-color: black; */
+        z-index: 10;
+        font-size: 1rem;
+    }
+
+
+
+// STAFF
+.container-3-index{
+    height: 60vh;
+    
+    .titulo-5{
+        margin: 2.5rem 0 1rem;
+        font-size: 1.9rem;
+    }
+    .item-staff{
+        height: 250px;
+       
+    
+    .foto-staff{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 5px 5px 0 #333;
+    }
+    .text-img{
+        text-align: center;
+        font-size: 1rem;
+    }
+    }
+    }
+
+// NUESTROS COMIENZOS
+.container-2-index{
+// height: 155vh;
+margin-top: -2rem;
+
+.titulo-2{
+ margin: 4rem auto 1rem;
+}
+
+// .div-1-nosotros{
+// height: 500px;
+// box-shadow: 0 5px 5px 0 #000;
+// margin: 0 auto;
+// background-image: url(/img/foto-michaeljor-1.jpg);
+// background-position: center;
+// background-size: cover;
+// width: 80% !important;
+// }
+// .div-2-nosotros{  
+// height: 440px;
+// background-color: #333;
+// box-shadow: 0 5px 5px 1px #000;
+// text-align: center;
+// width: 70% !important;
+// margin: 20px auto !important;    
+
+.div-texto{
+    width: 80%;
+    height: 100%;    
+    .texto{
+        font-size: 0.76rem !important;
+        color: #fff;
+        margin: auto;
+    }
+}
+
+// }
+}
+// FOOTER
+footer{
+height: 35vh;
+margin-top: 1rem;
+
+.titulo-3{
+    color: #fff;
+}
+.container-redes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+
+    .caja-itemRedes{
+        width: 6%;
+        height: 6%;
+        margin: 1% 6%;
+
+        .logo-redes{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+}
+}
+@media (min-width: 1045px) and (max-width: 1200px){
+//   STAFF
+    .container-3-index{
+        height: 60vh;
+        
+        .titulo-5{
+            margin: 2.5rem 0 1rem;
+            font-size: 1.9rem;
+        }
+        .item-staff{
+            height: 300px;
+           
+        
+        .foto-staff{
+            width: 100%;
+            height: 100%;
+            box-shadow: 0 5px 5px 0 #333;
+        }
+        .text-img{
+            text-align: center;
+            font-size: 1rem;
+        }
+        }
+        }
+
+        .container-2-index{
+            margin: 5rem auto 3rem;
+
+        }
+
+// FOOTER
+footer{
+height: 35vh;
+margin-top: 2rem;
+
+.titulo-3{
+    color: #fff;
+}
+.container-redes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+
+    .caja-itemRedes{
+        width: 6%;
+        height: 6%;
+        margin: 1% 6%;
+
+        .logo-redes{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1400px){
+//   STAFF
+.container-3-index{
+    height: 60vh;
+    
+    .titulo-5{
+        margin: 2.5rem 0 1rem;
+        font-size: 1.9rem;
+    }
+    .item-staff{
+        height: 300px;
+       
+    
+    .foto-staff{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 5px 5px 0 #333;
+    }
+    .text-img{
+        text-align: center;
+        font-size: 1rem;
+    }
+    }
+    }
+
+    .container-2-index{
+        margin: 5rem auto 3rem;
+
+    }
+
+// FOOTER
+footer{
+height: 35vh;
+margin-top: 2rem;
+
+.titulo-3{
+color: #fff;
+}
+.container-redes{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+height: 10%;
+width: 100%;
+
+.caja-itemRedes{
+    width: 6%;
+    height: 6%;
+    margin: 1% 6%;
+
+    .logo-redes{
+        width: 100%;
+        height: 100%;
+    }
+}
+}
+}
+}
+@media (min-width: 1400px){
+//   STAFF
+.container-3-index{
+    height: 60vh;
+    
+    .titulo-5{
+        margin: 2.5rem 0 1rem;
+        font-size: 1.9rem;
+    }
+    .item-staff{
+        height: 300px;
+       
+    
+    .foto-staff{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 5px 5px 0 #333;
+    }
+    .text-img{
+        text-align: center;
+        font-size: 1rem;
+    }
+    }
+    }
+
+    .container-2-index{
+        margin: 5rem auto 3rem;
+
+    }
+
+// FOOTER
+footer{
+height: 35vh;
+margin-top: 2rem;
+
+.titulo-3{
+color: #fff;
+}
+.container-redes{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+height: 10%;
+width: 100%;
+
+.caja-itemRedes{
+    width: 6%;
+    height: 6%;
+    margin: 1% 6%;
+
+    .logo-redes{
+        width: 100%;
+        height: 100%;
+    }
+}
+}
+}
+
+
+
+}

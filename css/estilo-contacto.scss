@@ -1,0 +1,356 @@
+$background : #fff; 
+$shadow : 0 5px 5px 0 #333;
+$border-titulo : 15px solid #000;
+$height : 7.5vh;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ; 
+    font-size: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+body{
+    background: linear-gradient(#fff ,  #000);
+    
+}
+// COMIENZA TITULO Y MENU
+nav{
+    margin: -12px 0 20px;
+    height: 15vh;
+    
+    .container--menu{
+        background-color: #fff;
+        box-shadow: 0 5px 5px 0 #333;
+        margin-top: auto;
+    }
+    .container--titulo{
+        width: 100%;
+        border: 15px solid #000;
+        border-radius: 20px;
+        padding: 0 20px;
+        border-top: none;
+        border-bottom: none;
+        text-align: center;
+    }
+    .navbar-nav{
+        margin-left: auto;
+    }
+    .nav-link{
+        font-size: 1.3rem;
+    }
+    a.nav-link{
+        /* color:#fff; */
+        /* background-color: black; */
+        z-index: 10;
+    }
+}
+// INICIA INDEX
+.contenedor-iframe{
+    width: 100%;
+    height: 250px;
+}
+.contenedor-form{
+    margin-top: 15px;
+
+    .item-form{
+        margin: 15px auto;
+        font-size: 25px;
+        width: 100%;
+    }
+}
+// FOOTER 
+footer{
+    margin: 10vh 0 5vh;
+    .titulo-3{
+        color: #fff;
+    }
+
+    .container-redes{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        height: 10%;
+        width: 100%;
+
+        .caja-itemRedes{
+            width: 6%;
+            height: 6%;
+            margin: 15px 55px ;
+            transition: 0.4s;
+        
+
+            .logo-redes{
+                width: 100%;
+                height: 100%;
+                transition: 0.7s;
+            }
+            
+            .logo-redes:hover{
+                transform: scale(1.3);
+            }
+        }
+    }
+}
+@media only screen and (max-width:321px){
+    nav{
+        margin: -12px 0 20px;
+        height: 15vh;
+        
+        .container--menu{
+            background-color: #fff;
+            box-shadow: 0 5px 5px 0 #333;
+            margin-top: auto;
+        }
+        .container--titulo{
+            max-width: 300px ;
+            min-width: 200px;
+            border: 15px solid #000;
+            border-radius: 20px;
+            margin: 0 3%;
+            padding: 0 20px;
+            border-top: none;
+            border-bottom: none;
+            text-align: center;
+        }
+        button.navbar-toggler{
+            width: 30%;
+            height: 30%;
+            margin: -0.3rem auto 0.5rem auto;
+
+            span.navbar-toggler-icon{
+                margin: auto -8px;
+            }
+        }
+        .navbar-collapse{
+            z-index: 100;
+            height: 200%;
+        }
+      
+        a.nav-link{
+        background-color: #fff;
+        border: 1px solid #999;
+        color: #000;
+        font-size: 1rem;
+        z-index: 999;
+        }
+        
+    }
+    footer{
+        // height: 20vh;
+        // margin-top: -15vh;
+        .titulo-3{
+            color: #fff;
+            }
+        
+            .container-redes{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            height: 10%;
+            width: 100%;
+            .caja-itemRedes{
+                width: 10%;
+                height:10%;
+                margin: 1% 4%;
+                .logo-redes{
+                    width: 100%;
+                    height: 100%;
+                    }
+            }
+        }
+        } 
+}
+@media (min-width: 321px) and (max-width: 390px){
+    nav{
+        margin: -12px 0 20px;
+        height: 15vh;
+        
+        .container--menu{
+            background-color: #fff;
+            box-shadow: 0 5px 5px 0 #333;
+            margin-top: auto;
+        }
+        .container--titulo{
+            max-width: 300px ;
+            min-width: 200px;
+            border: 15px solid #000;
+            border-radius: 20px;
+            margin: 0 15%;
+            padding: 0 20px;
+            border-top: none;
+            border-bottom: none;
+            text-align: center;
+        }
+        button.navbar-toggler{
+            width: 30%;
+            height: 30%;
+            margin: -0.3rem auto 0.5rem auto;
+
+            span.navbar-toggler-icon{
+                margin: auto -8px;
+            }
+        }
+        .navbar-collapse{
+            z-index: 100;
+            height: 200%;
+        }
+      
+        a.nav-link{
+        background-color: #fff;
+        border: 1px solid #999;
+        color: #000;
+        font-size: 1rem;
+        z-index: 999;
+        }
+        
+    }
+    footer{
+        // height: 20vh;
+        // margin-top: -15vh;
+        .titulo-3{
+            color: #fff;
+            }
+        
+            .container-redes{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            height: 10%;
+            width: 100%;
+            .caja-itemRedes{
+                width: 10%;
+                height:10%;
+                margin: 1% 4%;
+                .logo-redes{
+                    width: 100%;
+                    height: 100%;
+                    }
+            }
+        }
+        } 
+}
+@media (min-width: 390px) and (max-width: 480px){
+    nav{
+        margin: -12px 0 20px;
+        height: 15vh;
+        
+        .container--menu{
+            background-color: #fff;
+            box-shadow: 0 5px 5px 0 #333;
+            margin-top: auto;
+        }
+        .container--titulo{
+            width: 100%;
+            border: 15px solid #000;
+            border-radius: 20px;
+            margin: 0 10%;
+            padding: 0 60px;
+            border-top: none;
+            border-bottom: none;
+            text-align: center;
+        }
+        button.navbar-toggler{
+            width: 20%;
+            height: 25%;
+            margin: -0.3rem auto 0.5rem auto;
+
+            span.navbar-toggler-icon{
+                margin: auto -8px;
+            }
+        }
+        .navbar-collapse{
+            z-index: 100;
+            height: 200%;
+        }
+      
+        a.nav-link{
+        background-color: #fff;
+        border: 1px solid #999;
+        color: #000;
+        font-size: 1rem;
+        z-index: 999;
+        }
+    }
+    footer{
+        // height: 20vh;
+        // margin-top: -15vh;
+        .titulo-3{
+            color: #fff;
+            }
+        
+            .container-redes{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            height: 10%;
+            width: 100%;
+            .caja-itemRedes{
+                width: 10%;
+                height:10%;
+                margin: 1% 4%;
+                .logo-redes{
+                    width: 100%;
+                    height: 100%;
+                    }
+            }
+        }
+        } 
+}
+@media(min-width:481px) and (max-width:768px){
+    .container--titulo{
+        width: 100%;
+        border: 15px solid #000;
+        border-radius: 20px;
+        margin: 0 10%;
+        padding: 0 40px;
+        border-top: none;
+        border-bottom: none;
+        text-align: center;
+    
+    .navbar-collapse{
+        z-index: 100;
+        height: 200%;
+    }
+  
+    a.nav-link{
+    background-color: #fff;
+    border: 1px solid #999;
+    color: #000;
+   }
+}
+footer{
+    // height: 20vh;
+    // margin-top: -15vh;
+    .titulo-3{
+        color: #fff;
+        }
+    
+        .container-redes{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        height: 10%;
+        width: 100%;
+        .caja-itemRedes{
+            width: 10%;
+            height:10%;
+            margin: 1% 4%;
+            .logo-redes{
+                width: 100%;
+                height: 100%;
+                }
+        }
+    }
+    } 
+}
+@media (min-width: 992px) and (max-width: 1045px){
+  
+    
+    a.nav-link{
+        /* color:#fff; */
+        /* background-color: black; */
+        z-index: 10;
+        font-size: 1rem;
+    }
+}
