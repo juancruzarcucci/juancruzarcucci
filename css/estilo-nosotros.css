@@ -904,7 +904,7 @@ footer .container-redes .caja-itemRedes .logo-redes:hover {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1045px) {
+@media (min-width: 992px) and (max-width: 1046px) {
   a.nav-link {
     /* color:#fff; */
     /* background-color: black; */
@@ -978,7 +978,7 @@ footer .container-redes .caja-itemRedes .logo-redes:hover {
   }
 }
 
-@media (min-width: 1045px) and (max-width: 1200px) {
+@media (min-width: 1047px) and (max-width: 1200px) {
   .container-3-index {
     height: 60vh;
   }

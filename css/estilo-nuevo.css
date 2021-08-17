@@ -723,12 +723,12 @@ footer .container__div--redes .div__item--redes .logo-redes:hover {
 }
 
 /* COMIENZA RESPONSIVE HASTA 1200PX */
-@media (min-width: 992px) and (max-width: 1045px) {
+@media (min-width: 992px) and (max-width: 1046px) {
   a.nav-link {
     /* color:#fff; */
     /* background-color: black; */
     z-index: 10;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .container--index {
     height: 100%;
@@ -828,7 +828,7 @@ footer .container__div--redes .div__item--redes .logo-redes:hover {
   }
 }
 
-@media (min-width: 1045px) and (max-width: 1200px) {
+@media (min-width: 1047px) and (max-width: 1200px) {
   .container--index {
     height: 100%;
     width: 100%;
