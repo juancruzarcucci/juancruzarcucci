@@ -110,13 +110,23 @@ body {
 }
 
 .container-2-index .div-1-nosotros {
-  height: 350px;
+  height: 375px;
   -webkit-box-shadow: 0 5px 5px 0 #000;
           box-shadow: 0 5px 5px 0 #000;
   margin-left: 5%;
   background-image: url(/img/foto-michaeljor-1.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.container-2-index .div-1-nosotros .div-foto {
+  width: 100%;
+  height: 100%;
+}
+
+.container-2-index .div-1-nosotros .div-foto .foto-jordan {
+  width: 100%;
+  height: 100%;
 }
 
 .container-2-index .div-2-nosotros {
@@ -278,13 +288,21 @@ footer .container-redes .caja-itemRedes .logo-redes:hover {
     margin: 0 auto;
   }
   .container-2-index .div-1-nosotros {
-    height: 200px;
+    height: 200px !important;
     -webkit-box-shadow: 0 5px 5px 0 #000;
             box-shadow: 0 5px 5px 0 #000;
     margin: 0 auto;
     background-image: url(/img/foto-michaeljor-1.jpg);
     background-position: center;
     background-size: cover;
+  }
+  .container-2-index .div-1-nosotros .div-foto {
+    width: 100%;
+    height: 100%;
+  }
+  .container-2-index .div-1-nosotros .div-foto .foto-jordan {
+    width: 100%;
+    height: 100%;
   }
   .container-2-index .div-2-nosotros {
     height: 425px;
@@ -429,7 +447,7 @@ footer .container-redes .caja-itemRedes .logo-redes:hover {
     margin: 4rem auto 1rem;
   }
   .container-2-index .div-1-nosotros {
-    height: 300px;
+    height: 250px !important;
     -webkit-box-shadow: 0 5px 5px 0 #000;
             box-shadow: 0 5px 5px 0 #000;
     margin: 0 auto;
@@ -437,6 +455,14 @@ footer .container-redes .caja-itemRedes .logo-redes:hover {
     background-position: center;
     background-size: cover;
     width: 90% !important;
+  }
+  .container-2-index .div-1-nosotros .div-foto {
+    width: 100%;
+    height: 100%;
+  }
+  .container-2-index .div-1-nosotros .div-foto .foto-jordan {
+    width: 100%;
+    height: 100%;
   }
   .container-2-index .div-2-nosotros {
     height: 440px;
@@ -932,16 +958,44 @@ footer .container-redes .caja-itemRedes .logo-redes:hover {
     font-size: 1rem;
   }
   .container-2-index {
+    height: 155vh;
     margin-top: -2rem;
   }
   .container-2-index .titulo-2 {
     margin: 4rem auto 1rem;
   }
-  .container-2-index .div-texto {
+  .container-2-index .div-1-nosotros {
+    height: 500px;
+    -webkit-box-shadow: 0 5px 5px 0 #000;
+            box-shadow: 0 5px 5px 0 #000;
+    margin: 0 auto;
+    background-image: url(/img/foto-michaeljor-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 80% !important;
+  }
+  .container-2-index .div-1-nosotros .div-foto {
+    width: 100%;
+    height: 100%;
+  }
+  .container-2-index .div-1-nosotros .div-foto .foto-jordan {
+    width: 100%;
+    height: 100%;
+  }
+  .container-2-index .div-2-nosotros {
+    height: 440px;
+    background-color: #333;
+    -webkit-box-shadow: 0 5px 5px 1px #000;
+            box-shadow: 0 5px 5px 1px #000;
+    text-align: center;
+    width: 70% !important;
+    margin: 20px auto !important;
+  }
+  .container-2-index .div-2-nosotros .div-texto {
     width: 80%;
     height: 100%;
   }
-  .container-2-index .div-texto .texto {
+  .container-2-index .div-2-nosotros .div-texto .texto {
     font-size: 0.76rem !important;
     color: #fff;
     margin: auto;
@@ -1001,6 +1055,9 @@ footer .container-redes .caja-itemRedes .logo-redes:hover {
   }
   .container-2-index {
     margin: 5rem auto 3rem;
+  }
+  .container-2-index .div-1-nosotros {
+    height: 350px !important;
   }
   footer {
     height: 35vh;
